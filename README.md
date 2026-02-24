@@ -1,13 +1,12 @@
-✈️ Airline Reservation System (Spring Boot + PostgreSQL)
-📌 Project Overview
+# ✈️ Airline Reservation System (Spring Boot + PostgreSQL)
 
+ ## 📌 Project Overview
 A RESTful Airline Reservation System built using Spring Boot and PostgreSQL.
 
 This project demonstrates secure authentication using JWT, role-based authorization, clean layered architecture, request validation, and global exception handling.
 It simulates a real-world backend system for managing flights and bookings.
 
-🚀 Features
-
+## 🚀 Features
 • User Registration & Login (JWT Authentication)
 • Role-Based Access (ADMIN / USER)
 • Create Flight (Admin)
@@ -21,8 +20,7 @@ It simulates a real-world backend system for managing flights and bookings.
 • Clean Layered Architecture (Controller → Service → Repository)
 • Swagger API Documentation
 
-🛠 Tech Stack
-
+## 🛠 Tech Stack
 • Java 17
 • Spring Boot 3
 • Spring Security
@@ -32,29 +30,25 @@ It simulates a real-world backend system for managing flights and bookings.
 • Swagger (OpenAPI)
 • Maven
 
-🔐 Security
-
+## 🔐 Security
 • JWT-based authentication
 • BCrypt password encryption
 • Role-based endpoint protection
 • Secure configuration using environment variables
 
-📖 API Documentation
-
+## 📖 API Documentation
 Swagger UI is available at:
 
 http://localhost:8080/swagger-ui/index.html
 
-⚙️ Environment Configuration
-
+## ⚙️ Environment Configuration
 Set the following environment variables before running the project:
 
 DB_URL = jdbc:postgresql://localhost:5432/airline_db
 DB_USER = your_username
 DB_PASS = your_password
 
-▶️ How to Run
-
+## ▶️ How to Run
 Clone the repository
 
 Configure environment variables
@@ -67,7 +61,6 @@ The server will start at:
 
 http://localhost:8080
 
-👨‍💻 Author
-
+## 👨‍💻 Author
 Shubham Patil
 Java & Spring Boot Developer
